@@ -19,5 +19,5 @@ app.use(authRoutes);
 app.use(errorController.get404);
 
 app.listen(3000, () => {
-  console.log("Running on http://localhost:3000/");
+  console.log("Running on http://localhost:3000/login");
 });
